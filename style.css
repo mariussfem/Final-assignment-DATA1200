@@ -396,13 +396,6 @@ figure {
 	cursor: pointer;
 	border-radius: 10px;
 }
-.image #zoom-In figure img {
-	transform: scale(1);
-	transition: 0.3s ease-in-out;
-}
-.image #zoom-In figure:hover img {
-	transform: scale(1.5);
-}
 
 
 @media screen and (max-width:980px){
