@@ -386,6 +386,7 @@ figure {
 	transform: scale(1.5);
 }
 
+
 @media screen and (max-width:980px){
 	.image{
 		width:50%;
