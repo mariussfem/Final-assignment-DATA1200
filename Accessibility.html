@@ -1,135 +1,131 @@
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Student Life</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-   <body>
-   <nav>
-         <div class="logo">
-            <img src="pictures/logo1.png" style=" width:150px; height: 90px; object-fit:cover; border-radius:10px;">         
+
+<head>
+    <meta charset="utf-8">
+    <title>Student Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+
+        <div class="logo">
+            <img src="pictures/logo1.png" alt="Student logo">
         </div>
-         <input type="checkbox" id="click">
-         <label for="click" class="menu-btn">
-         <i class="fas fa-bars"></i>
-         </label>
-         <ul>
-            <li><a  href="index.html">Home</a></li>
+
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
             <li><a href="Reflection.html">Reflection Essay</a></li>
             <li><a href="Accessibility.html">Accessibility</a></li>
             <li><a href="Topical.html">Topical Information</a></li>
             <li><a href="fun.html">Fun</a></li>
-         </ul>
-      </nav>
-      
-	  
-	   <div class="access-wrapper">
-			
-			<div style="padding-bottom:20px;">  
-				<h1 style="font-size:35px; font-family: Arial, Helvetica, sans-serif; text-align:center; padding-bottom:20px;" > Code Validation </h1> 
-				<p style="text-align:center;"> The way we validated and checked our code, both HTML and CSS, was by using <a href="https://validator.w3.org/">W3C validator,</a>
-				which is a code validator.
-				This site has an option where you can validate your code by direct input, and that is what we did. </p>
+        </ul>
+    </nav>
 
-			</div>
-			<h1 style="font-size:35px; font-family: Arial, Helvetica, sans-serif; padding-left:30px;" > Accessibility</h1> <br>
-		
-		<section class="access-columns"> 
-		
-			<div class="access-box">
-			
-			<p>We also made some coding choices with universal design and accessibility in mind. 
-            Firstly we decided to use 
-            <a href = "https://www.w3.org/TR/WCAG21/" target="_blank">W3’s Web Content Accessibility Guidelines</a> 
-            and fulfill some criterias. 
-            The principles of web accessibility is represented in the acronym 
-            <abbr title="Perceivable, Operable, Understanfable, Robust">POUR</abbr> The first letter, “P”, 
-            stands for perceivable and refers to perceivable information and user interface. 
-            A criteria we fulfilled in this section would be criteria 
-            <a href ="https://www.w3.org/TR/WCAG21/#non-text-content" traget="_blank">1.1.1 non-text content.</a> 
-            By adding alternate text for non-text content, we fulfilled this criteria. 
-            By doing this, a screen reader can read out a text explaining the content for blind people.  
-        </p>
-		</div>
-		
-		<div class="access-box">
-		
-			<img src="pictures/image5.png " style="height:250px; width:100%; object-fit:cover; box-shadow: 20px 20px black; border-radius:10px;">
-		
-		</div>
-		
-		</section>
-		
-		<div style="padding:20px 20px 0px 30px;">
-		
-        <p>The “O” stands for operable and refers to operable user interface and navigation. 
-            One criteria we fulfilled under this section is criteria 
-            <a href="https://www.w3.org/TR/WCAG21/#page-titled" target="_blank">2.4.2 page title</a>, 
-            as we provided descriptive titles for our web pages. 
-            We also fulfilled criteria 
-            <a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context" target="_blank">2.4.4 link purpose</a>, 
-            as the link texts we use describe the purpose of the links. 
-            Both these criterias help the users understand where certain content is and what it is about. 
-        </p>
+    <div class="access-wrapper">
 
-        <p>The “U” stands for understandable and refers to understandable information and user interface. 
-            One criteria we fulfilled is 
-            <a href="https://www.w3.org/TR/WCAG21/#language-of-page" target="_blank">3.1.1 language of page</a>, 
-            as we used the “lang” element in HTML to set the language to english. 
-            This helps the screen reader to convert text into synthetic speech.  
-        </p>
+        <div>
+            <h1>Code Validation</h1>
+            <p> The way we validated and checked our code, both HTML and CSS, was by using
+                <a href="https://validator.w3.org/">W3C validator,</a>
+                which is a code validator.
+                This site has an option where you can validate your code by direct input, and that is what we did.
+            </p>
+        </div>
+        <h1>Accessibility</h1>
+        <br>
 
-        <p>The last letter, “R”, stands for robust and refers to robust content and reliable interpretation. 
-            We fulfilled criteria <a href="https://www.w3.org/TR/WCAG21/#parsing" target="_blank">4.1.1 parsing</a>, 
-            by validating our code as mentioned above. 
-            By validating our code we ensure that our code is written properly so that assistive technologies 
-            can parse the content accurately and without crashing.
-        </p>
-		
-		</div>
-		
-		
-	
-		<section class="access-columns"> 
-		
-			<div class="access-box">
-		
-			<img src="pictures/studying.jpeg " style="height:250px; width:100%; object-fit:cover; box-shadow: -20px 20px black; border-radius:10px;">
-		
-		</div>
-			
-			<div class="access-box">
-		
-        <p>We also used a powerpoint provided by <a href="https://www.ntnu.edu/employees/yavuz.inal" target="_blank">Yavuz Inal</a>, 
-            associate professor at <a href ="https://www.ntnu.no/" target="_blank">NTNU</a>, to look for guidelines. 
-            The guidelines provided in the powerpoint and that we followed include good captioning for images and large click areas. 
-            We also used <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAims contrast checker</a> 
-            to check if the colors we used are acceptable in relation to 
-            W3’s Web Content Accessibility Guidelines. By doing this we fulfill criteria 
-            <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum" target="_blank">1.4.3</a>, 
-            which ensures that people with low vision are able to read the text and content. 
-        </p>
-		
-		</div>
-		
-		</section>
-		
-		
-	  </div>
-   
-   <section class="footer">
-	    <center>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="Reflection.html">Esssay</a></li>
-				<li><a href="Accessibility.html">Accessibility</a></li>
-				<li><a href="Topical.html">Topical</a></li>
-				<li><a href="fun.html">Fun</a></li>
-			</ul>
-			<p style="color:white;"> Copywright © 2021 STUDENT LIFE. All Right Reserved </P>
-		</center>
-	</section>
-   </body>
-   </html>
+        <section class="access-columns">
+
+            <div class="access-box">
+                <p>We also made some coding choices with universal design and accessibility in mind.
+                    Firstly we decided to use
+                    <a href="https://www.w3.org/TR/WCAG21/" target="_blank">W3’s Web Content Accessibility
+                        Guidelines</a>
+                    and fulfill some criterias.
+                    The principles of web accessibility is represented in the acronym
+                    <abbr title="Perceivable, Operable, Understanfable, Robust">POUR</abbr> The first letter, “P”,
+                    stands for perceivable and refers to perceivable information and user interface.
+                    A criteria we fulfilled in this section would be criteria
+                    <a href="https://www.w3.org/TR/WCAG21/#non-text-content" target="_blank">1.1.1 non-text content.</a>
+                    By adding alternate text for non-text content, we fulfilled this criteria.
+                    By doing this, a screen reader can read out a text explaining the content for blind people.
+                </p>
+            </div>
+
+            <div class="access-box">
+                <img src="pictures/image5.png" alt="Picture of html code">
+            </div>
+
+        </section>
+
+        <div id="text-center">
+            <p>The “O” stands for operable and refers to operable user interface and navigation.
+                One criteria we fulfilled under this section is criteria
+                <a href="https://www.w3.org/TR/WCAG21/#page-titled" target="_blank">2.4.2 page title</a>,
+                as we provided descriptive titles for our web pages.
+                We also fulfilled criteria
+                <a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context" target="_blank">2.4.4 link purpose</a>,
+                as the link texts we use describe the purpose of the links.
+                Both these criterias help the users understand where certain content is and what it is about.
+            </p>
+            <p>The “U” stands for understandable and refers to understandable information and user interface.
+                One criteria we fulfilled is
+                <a href="https://www.w3.org/TR/WCAG21/#language-of-page" target="_blank">3.1.1 language of page</a>,
+                as we used the “lang” element in HTML to set the language to english.
+                This helps the screen reader to convert text into synthetic speech.
+            </p>
+            <p>The last letter, “R”, stands for robust and refers to robust content and reliable interpretation.
+                We fulfilled criteria <a href="https://www.w3.org/TR/WCAG21/#parsing" target="_blank">4.1.1 parsing</a>,
+                by validating our code as mentioned above.
+                By validating our code we ensure that our code is written properly so that assistive technologies
+                can parse the content accurately and without crashing.
+            </p>
+        </div>
+
+        <section class="access-columns">
+
+            <div class="access-box">
+                <img src="pictures/studying.jpeg" alt="Picture of student studying">
+            </div>
+
+            <div class="access-box">
+                <p>We also used a powerpoint provided by <a href="https://www.ntnu.edu/employees/yavuz.inal"
+                        target="_blank">Yavuz Inal</a>,
+                    associate professor at <a href="https://www.ntnu.no/" target="_blank">NTNU</a>, to look for
+                    guidelines.
+                    The guidelines provided in the powerpoint and that we followed include good captioning for images
+                    and large click areas.
+                    We also used <a href="https://webaim.org/resources/contrastchecker/" target="_blank">
+                        WebAimscontrast checker</a>
+                    to check if the colors we used are acceptable in relation to
+                    W3’s Web Content Accessibility Guidelines. By doing this we fulfill criteria
+                    <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum" target="_blank">1.4.3</a>,
+                    which ensures that people with low vision are able to read the text and content.
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <section class="footer">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Reflection.html">Esssay</a></li>
+            <li><a href="Accessibility.html">Accessibility</a></li>
+            <li><a href="Topical.html">Topical</a></li>
+            <li><a href="fun.html">Fun</a></li>
+        </ul>
+        <p> Copywright © 2021 STUDENT LIFE. All Right Reserved </p>
+    </section>
+
+</body>
+
+</html>
