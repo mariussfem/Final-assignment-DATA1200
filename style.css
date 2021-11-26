@@ -449,9 +449,9 @@ div.logo img {
 	}
 }
 .image {
-	display: inline-block;
 	text-align: center;
 	width: 33%;
+	float: left;
 }
 figure {
 	overflow: hidden;
